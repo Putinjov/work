@@ -1,0 +1,36 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.photo-card {
+  width: 350px;
+  margin-top: 20px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.photo-card img {
+  width: 100%;
+  height: 250px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.info-item {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
